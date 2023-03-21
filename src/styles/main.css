@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+.todoBox {
+  position: relative;
+  background-color: #1E1F25;
+  max-width: 500px;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+  top: 50%;
+}
+.todoBox ::-webkit-scrollbar {
+  width: 5px;
+}
+.todoBox ::-webkit-scrollbar-track {
+  background: #303030;
+}
+.todoBox ::-webkit-scrollbar-thumb {
+  background: rgb(126, 124, 124);
+  border-radius: 5px;
+}
+.todoBox ::-webkit-scrollbar-thumb:hover {
+  background: rgb(97, 89, 89);
+}
+.todoBox__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.todoBox__title {
+  width: 100%;
+  text-align: left;
+  font-size: 36px;
+  font-weight: 700;
+}
+.todoBox__tasksCount {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.todoBox__input {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+.todoBox__tasksList {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.todoBox__addBtn {
+  padding: 5px 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.todoBox__addBtn:hover {
+  background-color: rgb(184, 199, 199);
+}
+.todoBox__addBtn:active {
+  background-color: rgb(159, 170, 170);
+}
+.todoBox__tasksList-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 5px;
+}
+.todoBox__tasksList-item p {
+  max-width: 300px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
