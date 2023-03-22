@@ -60,7 +60,7 @@ function Todobox() {
                 <ul className="todoBox__tasksList">{res}</ul>
             </div>
         </section>
-    );
+    )
 }
 
 export default Todobox;
