@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bohdan-muts-todoapp/static/css/main.beb42555.css",
+    "main.js": "/bohdan-muts-todoapp/static/js/main.64ef3141.js",
+    "index.html": "/bohdan-muts-todoapp/index.html",
+    "main.beb42555.css.map": "/bohdan-muts-todoapp/static/css/main.beb42555.css.map",
+    "main.64ef3141.js.map": "/bohdan-muts-todoapp/static/js/main.64ef3141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beb42555.css",
+    "static/js/main.64ef3141.js"
+  ]
+}
