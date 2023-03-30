@@ -7,7 +7,6 @@ function Todobox() {
         }
     }
     
-    
     const tasks = [];
     const [tasksArr, setTasksArr] = useState(tasks);
     const [task, setTask] = useState(TaskGenerate);
@@ -52,7 +51,7 @@ function Todobox() {
     
     return (
         <section className="todoBox">
-            <div className="todoBox__container">
+           <div className="todoBox__container">
                 <h2 className="todoBox__title">To Do:</h2>
                 <h2 className="todoBox__tasksCount">{tasksCount}</h2>
                 <input placeholder="What you need to do?" value={inptVal} className="todoBox__input"  onChange={e=> {addTaskValue('task', e); setInptVal(e.target.value)}} />
